@@ -40,6 +40,7 @@ namespace FileCopyForAmongUs
             slowRandomVal = Rand.Next(1, 10);
             fastRandom = Rand.Next(MaxValue / 2, MaxValue);
             fastRandomVal = Rand.Next(0, 30);
+            hitRandom = false;
 
             backgroundWorker1.RunWorkerAsync();
         }
